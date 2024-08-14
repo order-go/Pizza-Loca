@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
-  base: 'https://order-go.github.io/pizza-loca',
+  base: 'https://order-go.github.io/Pizza-Loca',
 });
