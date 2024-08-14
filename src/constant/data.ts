@@ -131,8 +131,8 @@ const data: {
           title: "Combo de pizza",
           price: 3.99,
           images: [
-          "/pizza-loca/Combos/combo1.jpg",
-          "/pizza-loca/Combos/combo2.jpg",
+          "/Pizza-Loca/Combos/combo1.jpg",
+          "/Pizza-Loca/Combos/combo2.jpg",
         ],
 
           description:
