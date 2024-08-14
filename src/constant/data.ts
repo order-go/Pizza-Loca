@@ -37,137 +37,106 @@ const data: {
 } = {
   categories: [
     {
-      id: 1,
-      name: "Whisky",
+      id: 6,
+      name: "Slices",
       products: [
         {
           id: 1,
-          title: "Whisky's",
-          price: 5.99,
+          title: "Slice de pizza",
+          price: 0.49,
           images: [
-            "/licovery/Whisky/pizza1.jpg",
-            "/licovery/Whisky/pizza2.jpg",
+            "/pizza-loca/Slices/Slice1.jpg",
+            "/pizza-loca/Slices/Slice2.jpg",
           ],
           description:
-            "El whisky es una bebida alcohólica destilada hecha de granos fermentados, como cebada, maíz, centeno o trigo, que se fermenta, se destila y se envejece en barricas de madera para desarrollar su sabor característico.",
+            "Es comúnmente servida como una pieza individual, ideal para comer con las manos. La corteza crujiente, la base de salsa de tomate, el queso derretido y los ingredientes variados ofrecen un bocado equilibrado y sabroso.",
+        },
+      ],
+    },
+    {
+      id: 1,
+      name: "Pepperoni",
+      products: [
+        {
+          id: 1,
+          title: "Pepperoni",
+          price: 2.99,
+          images: [
+            "/pizza-loca/Pepperoni/Pizza2.jpg",
+            "/pizza-loca/Pepperoni/Pizza1.jpg"
+            
+          ],
+          description:
+            "Conocida por su sabor picante y sabroso. Está cubierta con salsa de tomate, queso mozzarella y rodajas de pepperoni, un tipo de salami curado que se vuelve crujiente al hornearse.",
         },
       ],
     },
     {
       id: 2,
-      name: "Vodka",
+      name: "Margarita",
       products: [
         {
           id: 1,
-          title: "Vodka",
+          title: "Margarita",
           price: 2.99,
           images: [
-            "/licovery/vodka/vodka1.jpg",
-            "/licovery/vodka/vodka 2.jpg",
-            "/licovery/vodka/vodka3.jpg",
+            "/pizza-loca/Margarita/Margarita1.jpg",
+            "/pizza-loca/Margarita/Margarita2.jpg",
           ],
           description:
-            "El vodka es una bebida alcohólica clara y suave, destilada a partir de granos o patatas, con un sabor neutro y alta pureza.",
+            "Clásica italiana que se caracteriza por su sencillez y frescura. Está cubierta con salsa de tomate, mozzarella y hojas frescas de albahaca, representando los colores de la bandera italiana.",
         },
       ],
     },
     {
       id: 3,
-      name: "Cervezas",
+      name: "Cuatro Quesos",
       products: [
         {
           id: 1,
-          title: "Cerveza Corona",
+          title: "Cuatro Quesos",
           price: 0.99,
           images: [
-            "/licovery/cervezas/corona1.jpg",
-            "/licovery/cervezas/corona2.jpg",
-            "/licovery/cervezas/corona3.jpg"
+            "/pizza-loca/4Quesos/4Chesse1.jpg",
+            "/pizza-loca/4Quesos/4Chesse2.jpg",
           ],
           description:
-            "Una cerveza lager mexicana, conocida por su sabor ligero y refrescante. Se suele servir con una rodaja de limón o lima en el cuello de la botella.",
-        },
-        {
-          id: 2,
-          title: "Cerveza Heineken",
-          price: 1.49,
-          images: [
-            "/licovery/cervezas/heinek1.jpg",
-            "/licovery/cervezas/heinek2.jpg",
-            "/licovery/cervezas/heinek3.jpg",
-            "/licovery/cervezas/heinek4.jpg",
-          ],
-          description:
-            "De origen holandés, reconocida por su sabor balanceado y ligeramente amargo. Es una de las cervezas más populares y se distingue por su botella verde y etiqueta roja.",
+            "Combinación de sabores intensos y cremosos, hecha con una mezcla de cuatro tipos diferentes de quesos. Generalmente incluye mozzarella, gorgonzola, parmesano y queso de cabra o provolone.",
         },
       ],
     },
     {
       id: 4,
-      name: "Espumantes",
+      name: "Bebidas",
       products: [
         {
           id: 1,
-          title: "Espumantes",
-          price: 3.99,
+          title: "Refrescos",
+          price: 0.99,
           images: [
-            "/licovery/espumas/espuma1.jpg",
-            "/licovery/espumas/espuma2.jpg",
+            "/pizza-loca/Bebidas/Refresco1.jpg",
+            "/pizza-loca/Bebidas/Refresco2.jpg",
           ],
           description:
-            "Se caracteriza por su efervescencia natural. Se elaboran a partir de variedades de uva específicas y son populares en celebraciones y eventos especiales.",
+            "Su efervescencia y dulzura los convierten en un acompañamiento perfecto para pizzas, equilibrando la intensidad de los ingredientes y refrescando el paladar entre cada bocado.",
         },
       ],
     },
     {
       id: 5,
-      name: "Cocktail's",
+      name: "Combos",
       products: [
         {
           id: 1,
-          title: "Cocktail's",
-          price: 0.99,
-          images: ["/licovery/cocktails/cocktail1.jpg",
-          "/licovery/cocktails/cocktail2.jpg",
-          "/licovery/cocktails/cocktail3.jpg",],
+          title: "Combo de pizza",
+          price: 3.99,
+          images: [
+          "/pizza-loca/Combos/combo1.jpg",
+          "/pizza-loca/Combos/combo2.jpg",
+        ],
 
           description:
-            "Bebidas mezcladas que combinan diferentes tipos de licores con ingredientes, como jugos, sodas, frutas y hierbas, crean sabores únicos y variados.",
-        },
-      ],
-    },
-    {
-      id: 6,
-      name: "Vinos",
-      products: [
-        {
-          id: 1,
-          title: "Vinos",
-          price: 4.99,
-          images: [
-            "/licovery/vinos/vino1.jpg",
-            "/licovery/vinos/vino2.jpg",
-          ],
-          description:
-            "Bebida alcohólica hecha por la fermentación del jugo de uvas. Su sabor y aroma varían según las uvas usadas y el método de producción. Es apreciado por su capacidad para complementar comidas y su importancia cultural.",
-        },
-      ],
-    },
-    {
-      id: 7,
-      name: "Snacks",
-      products: [
-        {
-          id: 1,
-          title: "Snacks",
-          price: 0.49,
-          images: [
-            "/licovery/snacks/snack1.jpg",
-            "/licovery/snacks/snack2.jpg",
-            "/licovery/snacks/snack3.jpg",
-          ],
-          description:
-            "Los snacks son alimentos ligeros y rápidos de consumir, perfectos para acompañar bebidas alcohólicas",
+            "Una variedad de sabores que pueden incluir pizzas clásicas como Margarita, Pepperoni, y Cuatro Quesos, acompañadas de refrescantes gaseosas, creando una combinación que satisface todos los gustos y es perfecta para disfrutar en grupo.",
         },
       ],
     },
@@ -181,12 +150,12 @@ const data: {
   },
   contactData: [
     {
-      name: "Instagram @Licovery",
-      link: "https://www.instagram.com/licoverymcy",
+      name: "Instagram @PizzaLoca",
+      link: "https://www.instagram.com/",
       icon: FaInstagram,
     },
     {
-      name: "WhatsApp Licovery",
+      name: "WhatsApp PizzaLoca",
       link: "https://wa.me/4125026472",
       icon: FaWhatsapp,
     },

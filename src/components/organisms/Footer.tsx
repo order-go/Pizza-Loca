@@ -6,9 +6,8 @@ const Footer = () => {
       <div className='container mx-auto px-4'>
         <div className='flex flex-col items-center text-center space-y-4'>
           <div className='text-gray-300'>
-            <h1 className='text-xl font-bold'>Licovery</h1>
-            <p className='mt-1 text-sm'>🥃 LICOreria Online
-            🛵 Servicio deliVERY</p>
+            <h1 className='text-xl font-bold'>Pizza🍕Loca</h1>
+            <p className='mt-1 text-sm'>"La pizza que despierta tu locura por el sabor."</p>
           </div>
           <div className='text-brown-500 text-sm'>
             <p>&copy; 2024. 

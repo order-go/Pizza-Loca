@@ -106,7 +106,7 @@ const CartSidebar=({isOpen,onClose}: {isOpen: boolean; onClose: () => void;}) =>
                                     <p className="font-semibold">Services - {deliveryLocation}</p>
                                     <span>$ {deliveryFee.toFixed(2)}</span>
                                 </div>
-                                <button onClick={handleRemoveDelivery} className="text-yellow-500  px-2"><TbBasketCancel className='h-5 w-5' /></button>
+                                <button onClick={handleRemoveDelivery} className="text-red-500  px-2"><TbBasketCancel className='h-5 w-5' /></button>
                             </li>
                         )}
                     </ul>
