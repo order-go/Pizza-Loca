@@ -45,8 +45,8 @@ const data: {
           title: "Slice de pizza",
           price: 0.49,
           images: [
-            "/pizza-loca/Slices/Slice1.jpg",
-            "/pizza-loca/Slices/Slice2.jpg",
+            "/Pizza-Loca/Slices/Slice1.jpg",
+            "/Pizza-Loca/Slices/Slice2.jpg",
           ],
           description:
             "Es comúnmente servida como una pieza individual, ideal para comer con las manos. La corteza crujiente, la base de salsa de tomate, el queso derretido y los ingredientes variados ofrecen un bocado equilibrado y sabroso.",
@@ -62,8 +62,8 @@ const data: {
           title: "Pepperoni",
           price: 2.99,
           images: [
-            "/pizza-loca/Pepperoni/Pizza2.jpg",
-            "/pizza-loca/Pepperoni/Pizza1.jpg"
+            "/Pizza-Loca/Pepperoni/Pizza2.jpg",
+            "/Pizza-Loca/Pepperoni/Pizza1.jpg"
             
           ],
           description:
@@ -80,8 +80,8 @@ const data: {
           title: "Margarita",
           price: 2.99,
           images: [
-            "/pizza-loca/Margarita/Margarita1.jpg",
-            "/pizza-loca/Margarita/Margarita2.jpg",
+            "/Pizza-Loca/Margarita/Margarita1.jpg",
+            "/Pizza-Loca/Margarita/Margarita2.jpg",
           ],
           description:
             "Clásica italiana que se caracteriza por su sencillez y frescura. Está cubierta con salsa de tomate, mozzarella y hojas frescas de albahaca, representando los colores de la bandera italiana.",
@@ -97,8 +97,8 @@ const data: {
           title: "Cuatro Quesos",
           price: 0.99,
           images: [
-            "/pizza-loca/4Quesos/4Chesse1.jpg",
-            "/pizza-loca/4Quesos/4Chesse2.jpg",
+            "/Pizza-Loca/4Quesos/4Chesse1.jpg",
+            "/Pizza-Loca/4Quesos/4Chesse2.jpg",
           ],
           description:
             "Combinación de sabores intensos y cremosos, hecha con una mezcla de cuatro tipos diferentes de quesos. Generalmente incluye mozzarella, gorgonzola, parmesano y queso de cabra o provolone.",
@@ -114,8 +114,8 @@ const data: {
           title: "Refrescos",
           price: 0.99,
           images: [
-            "/pizza-loca/Bebidas/Refresco1.jpg",
-            "/pizza-loca/Bebidas/Refresco2.jpg",
+            "/Pizza-Loca/Bebidas/Refresco1.jpg",
+            "/Pizza-Loca/Bebidas/Refresco2.jpg",
           ],
           description:
             "Su efervescencia y dulzura los convierten en un acompañamiento perfecto para pizzas, equilibrando la intensidad de los ingredientes y refrescando el paladar entre cada bocado.",
